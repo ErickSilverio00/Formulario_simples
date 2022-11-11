@@ -1,0 +1,39 @@
+* body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(#2193b0, #6dd5ed);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-attachment: fixed;
+    
+}
+
+fieldset {
+    width: 30%;
+    margin: 50px auto;
+    border-radius: 100px;
+    border-color: black;
+}
+
+.redes {   
+    display: inline-table; 
+    text-align:right;
+}
+
+.redes ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+fieldset:hover {
+    transform: scale(1.1);
+}
+
+fieldset {
+    transition: 1s;
+}
+
